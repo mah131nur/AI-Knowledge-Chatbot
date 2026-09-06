@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 import json
 import re
@@ -18,7 +19,7 @@ from src.database import init_db, create_session, add_message, get_session_messa
 from src.file_handler import extract_text, summarize_text, answer_from_file, SUPPORTED_EXTENSIONS
 
 app = Flask(__name__)
-app.secret_key = "ai-knowledge-chatbot-local-key-change-me"
+app.secret_key = os.environ.get("SECRET_KEY", "ai-knowledge-chatbot-local-key-change-me")
 UPLOAD_DIR = Path("uploads")
 UPLOAD_DIR.mkdir(exist_ok=True)
 init_db()
