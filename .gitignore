@@ -9,6 +9,7 @@ venv/
 # Runtime data
 database/chatbot.db
 user_profile.json
+uploads/
 
 # Environment / secrets
 .env
