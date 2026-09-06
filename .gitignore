@@ -7,8 +7,8 @@ venv/
 .venv/
 
 # Runtime data
-user.json
-chatbot.db
+database/chatbot.db
+user_profile.json
 
 # Environment / secrets
 .env
