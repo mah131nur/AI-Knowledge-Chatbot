@@ -1,0 +1,80 @@
+question,answer,category
+What is mathematics?,Mathematics is the study of numbers quantities shapes patterns structures and relationships. Example: Addition subtraction multiplication and geometry are parts of mathematics.,basic
+What is a number?,A number is a mathematical value used to count measure or describe quantities. Example: 5 is a number that can be used to count five objects.,basic
+What is a natural number?,A natural number is a positive whole number used for counting such as 1 2 3 and so on. Example: 1 5 and 10 are natural numbers.,number_system
+What is a whole number?,A whole number is a number that includes zero and all positive integers. Example: 0 1 2 and 10 are whole numbers.,number_system
+What is an integer?,An integer is a whole number that can be positive negative or zero. Example: -3 0 4 and 10 are integers.,number_system
+What is a positive number?,A positive number is a number greater than zero. Example: 5 is a positive number because it is greater than zero.,number_system
+What is a negative number?,A negative number is a number less than zero. Example: -7 is a negative number because it is less than zero.,number_system
+What is an even number?,An even number is an integer that is exactly divisible by 2. Example: 8 is an even number because 8 divided by 2 equals 4.,number_system
+What is an odd number?,An odd number is an integer that is not exactly divisible by 2. Example: 7 is an odd number because 7 cannot be divided by 2 without a remainder.,number_system
+What is a prime number?,A prime number is a whole number greater than 1 that has exactly two positive factors: 1 and itself. Example: 7 is a prime number because its only positive factors are 1 and 7.,number_system
+What is a composite number?,A composite number is a whole number greater than 1 that has more than two positive factors. Example: 6 is a composite number because its factors are 1 2 3 and 6.,number_system
+What is a factor?,A factor is a number that divides another number exactly without leaving a remainder. Example: 3 is a factor of 12 because 12 divided by 3 equals 4.,number_system
+What is a multiple?,A multiple is a number obtained by multiplying a given number by a whole number. Example: 15 is a multiple of 5 because 5 multiplied by 3 equals 15.,number_system
+What is HCF?,HCF stands for Highest Common Factor and is the greatest factor common to two or more numbers. Example: The HCF of 8 and 12 is 4 because 4 is their greatest common factor.,number_system
+What is LCM?,LCM stands for Least Common Multiple and is the smallest positive multiple common to two or more numbers. Example: The LCM of 3 and 4 is 12.,number_system
+What is a fraction?,A fraction represents a part of a whole and is written using a numerator and denominator. Example: 3/5 represents three parts out of five equal parts.,fractions
+What is a numerator?,The numerator is the top number of a fraction and represents the number of parts being considered. Example: In 3/5 the numerator is 3.,fractions
+What is a denominator?,The denominator is the bottom number of a fraction and represents the total number of equal parts. Example: In 3/5 the denominator is 5.,fractions
+What is a proper fraction?,A proper fraction is a fraction whose numerator is smaller than its denominator. Example: 3/5 is a proper fraction because 3 is smaller than 5.,fractions
+What is an improper fraction?,An improper fraction is a fraction whose numerator is greater than or equal to its denominator. Example: 7/4 is an improper fraction because 7 is greater than 4.,fractions
+What is a mixed fraction?,A mixed fraction contains a whole number and a proper fraction. Example: 2 1/3 is a mixed fraction.,fractions
+What is a decimal?,A decimal is a number that represents a whole number and fractional parts using a decimal point. Example: 2.5 is a decimal representing two and five tenths.,decimals
+What is a percentage?,A percentage is a way of expressing a number as a fraction of 100. Example: 25% means 25 out of 100.,percentage
+What is a ratio?,A ratio is a comparison between two or more quantities of the same kind. Example: A ratio of 2:3 means there are 2 parts of one quantity for every 3 parts of another.,ratio
+What is a proportion?,A proportion is a statement that two ratios are equal. Example: 2:4 and 1:2 form a proportion because both ratios have the same value.,ratio
+What is an exponent?,An exponent is a number that indicates how many times a base is multiplied by itself. Example: In 2³ the exponent is 3 and 2 is multiplied by itself three times.,algebra
+What is a power in mathematics?,A power consists of a base and an exponent and represents repeated multiplication of the base. Example: 3² means 3 multiplied by 3 which equals 9.,algebra
+What is a square root?,A square root of a number is a value that when multiplied by itself gives the original number. Example: The square root of 25 is 5 because 5 multiplied by 5 equals 25.,algebra
+What is algebra?,Algebra is a branch of mathematics that uses letters and symbols to represent numbers and quantities. Example: x + 5 = 10 is an algebraic equation.,algebra
+What is a variable?,A variable is a symbol usually a letter that represents an unknown or changing value. Example: In x + 3 = 7 the letter x is a variable.,algebra
+What is a constant?,A constant is a fixed value that does not change. Example: In x + 5 the number 5 is a constant.,algebra
+What is an algebraic expression?,An algebraic expression is a combination of numbers variables and mathematical operations. Example: 2x + 5 is an algebraic expression.,algebra
+What is an equation?,An equation is a mathematical statement that shows two expressions are equal. Example: 2 + 3 = 5 is an equation.,algebra
+What is a linear equation?,A linear equation is an equation in which the highest power of the variable is one. Example: x + 5 = 10 is a linear equation.,algebra
+What is geometry?,Geometry is the branch of mathematics that studies shapes sizes positions and properties of objects. Example: Studying triangles circles and squares is part of geometry.,geometry
+What is a point?,A point is a precise location in space and has no length width or height. Example: A dot on a page can represent a point.,geometry
+What is a line?,A line is a straight path that extends infinitely in both directions. Example: A straight line drawn with arrows at both ends represents a line.,geometry
+What is a line segment?,A line segment is a part of a line with two fixed endpoints. Example: The side of a triangle is a line segment.,geometry
+What is an angle?,An angle is formed when two rays meet at a common endpoint. Example: The corner of a square forms a 90 degree angle.,geometry
+What is an acute angle?,An acute angle is an angle greater than 0 degrees and less than 90 degrees. Example: 45 degrees is an acute angle.,geometry
+What is a right angle?,A right angle is an angle that measures exactly 90 degrees. Example: Each corner of a square is a right angle.,geometry
+What is an obtuse angle?,An obtuse angle is an angle greater than 90 degrees and less than 180 degrees. Example: 120 degrees is an obtuse angle.,geometry
+What is a straight angle?,A straight angle is an angle that measures exactly 180 degrees. Example: A straight line forms a 180 degree angle.,geometry
+What is a triangle?,A triangle is a polygon with three sides and three angles. Example: A shape with sides of 3 cm 4 cm and 5 cm is a triangle.,geometry
+What is an equilateral triangle?,An equilateral triangle is a triangle with three equal sides and three equal angles. Example: A triangle with three sides of 5 cm each is equilateral.,geometry
+What is an isosceles triangle?,An isosceles triangle is a triangle with at least two equal sides. Example: A triangle with sides 5 cm 5 cm and 6 cm is isosceles.,geometry
+What is a scalene triangle?,A scalene triangle is a triangle in which all three sides have different lengths. Example: A triangle with sides 3 cm 4 cm and 5 cm is scalene.,geometry
+What is a right triangle?,A right triangle is a triangle that has one angle measuring 90 degrees. Example: A triangle with angles 90 degrees 60 degrees and 30 degrees is a right triangle.,geometry
+What is a quadrilateral?,A quadrilateral is a polygon with four sides four vertices and four angles. Example: A square is a quadrilateral.,geometry
+What is a square?,A square is a quadrilateral with four equal sides and four right angles. Example: A square with each side measuring 4 cm has four equal sides and four 90 degree angles.,geometry
+What is a rectangle?,A rectangle is a quadrilateral with four right angles and opposite sides equal. Example: A shape with length 6 cm and width 4 cm can be a rectangle.,geometry
+What is a parallelogram?,A parallelogram is a quadrilateral in which both pairs of opposite sides are parallel. Example: A slanted four sided shape with opposite sides parallel can be a parallelogram.,geometry
+What is a circle?,A circle is a two dimensional shape whose points are all the same distance from its center. Example: The shape of a coin can be represented by a circle.,geometry
+What is the radius of a circle?,The radius is the distance from the center of a circle to any point on its circumference. Example: If a circle has a radius of 5 cm then the distance from its center to its edge is 5 cm.,geometry
+What is the diameter of a circle?,The diameter is a line segment passing through the center of a circle with endpoints on the circumference. Example: If the radius is 5 cm then the diameter is 10 cm.,geometry
+What is the circumference of a circle?,The circumference is the distance around a circle. Example: A circle with radius 5 cm has circumference approximately 31.4 cm.,geometry
+What is perimeter?,Perimeter is the total distance around the boundary of a two dimensional shape. Example: A square with side 4 cm has a perimeter of 16 cm.,measurement
+What is area?,Area is the amount of surface covered by a two dimensional shape. Example: A rectangle with length 5 cm and width 3 cm has an area of 15 square cm.,measurement
+What is volume?,Volume is the amount of three dimensional space occupied by an object. Example: A box measuring 2 cm by 3 cm by 4 cm has a volume of 24 cubic cm.,measurement
+What is the Pythagorean theorem?,The Pythagorean theorem states that in a right triangle the square of the hypotenuse equals the sum of the squares of the other two sides. Example: For sides 3 and 4 the hypotenuse is 5 because 3² + 4² = 5².,geometry
+What is trigonometry?,Trigonometry is the branch of mathematics that studies relationships between angles and sides of triangles. Example: Sine cosine and tangent are basic trigonometric functions.,trigonometry
+What is sine?,Sine is a trigonometric function that relates an angle of a right triangle to the ratio of its opposite side and hypotenuse. Example: For an angle with opposite side 3 and hypotenuse 5 sine is 3/5.,trigonometry
+What is cosine?,Cosine is a trigonometric function that relates an angle of a right triangle to the ratio of its adjacent side and hypotenuse. Example: For an angle with adjacent side 4 and hypotenuse 5 cosine is 4/5.,trigonometry
+What is tangent?,Tangent is a trigonometric function that relates an angle of a right triangle to the ratio of its opposite side and adjacent side. Example: If the opposite side is 3 and adjacent side is 4 tangent is 3/4.,trigonometry
+What is statistics?,Statistics is the branch of mathematics concerned with collecting organizing analyzing interpreting and presenting data. Example: Finding the average marks of students is an example of statistics.,statistics
+What is mean?,Mean is the average value obtained by adding all values and dividing by the number of values. Example: The mean of 2 4 and 6 is 4.,statistics
+What is median?,Median is the middle value of an ordered set of data. Example: The median of 2 4 and 7 is 4.,statistics
+What is mode?,Mode is the value that occurs most frequently in a data set. Example: In 2 3 3 4 the mode is 3 because it occurs most often.,statistics
+What is probability?,Probability is a measure of how likely an event is to occur. Example: The probability of getting heads when tossing a fair coin is 1/2.,probability
+What is a set?,A set is a well defined collection of distinct objects or elements. Example: {1 2 3} is a set containing three numbers.,sets
+What is a function?,A function is a mathematical relationship in which each input has exactly one output. Example: If f(x) = x + 2 then the input 3 gives the output 5.,functions
+What is coordinate geometry?,Coordinate geometry is a branch of mathematics that uses coordinates and algebra to study geometric shapes and positions. Example: The point (2 3) represents a location on a coordinate plane.,geometry
+What is a multiple of a number?,A multiple of a number is the result obtained when that number is multiplied by a whole number. Example: 20 is a multiple of 5 because 5 multiplied by 4 equals 20.,number_system
+What is a decimal place?,A decimal place indicates the position of a digit to the right or left of the decimal point. Example: In 4.56 the digit 5 is in the tenths place and 6 is in the hundredths place.,decimals
+What is a unit fraction?,A unit fraction is a fraction whose numerator is exactly 1. Example: 1/4 is a unit fraction because its numerator is 1.,fractions
+What is a polygon?,A polygon is a closed two dimensional shape made up of three or more straight line segments. Example: A triangle and a square are examples of polygons.,geometry
+What is a parallel line?,Parallel lines are lines in the same plane that never meet and remain the same distance apart. Example: The opposite sides of a rectangle are parallel lines.,geometry
+What is a data set?,A data set is a collection of related values or observations used for analysis. Example: The numbers 10 15 20 and 25 can form a data set.,statistics
+What is an outcome in probability?,An outcome is a possible result of a random experiment or event. Example: When tossing a coin the possible outcomes are heads and tails.,probability
