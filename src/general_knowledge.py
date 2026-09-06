@@ -1,20 +1,11 @@
 import csv
 import re
 
-from sentence_transformers import SentenceTransformer
+from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 from rapidfuzz.fuzz import ratio
 from rapidfuzz import process
-
-
-# ============================================================
-# LOAD AI MODEL
-# ============================================================
-
-model = SentenceTransformer(
-    "all-MiniLM-L6-v2"
-)
 
 
 # ============================================================
@@ -71,7 +62,7 @@ def preprocess_text(text):
 
 
 # ============================================================
-# BUILD VOCABULARY
+# BUILD VOCABULARY (for spelling correction only)
 # ============================================================
 
 def build_vocabulary(data):
@@ -277,6 +268,20 @@ def get_keywords(text):
 # ============================================================
 # PREPARE DATA
 # ============================================================
+#
+# NOTE: This module used to build embeddings with a
+# SentenceTransformer model ("all-MiniLM-L6-v2"). That model
+# is now replaced with a TfidfVectorizer, matching the same
+# approach already used in pakistan.py / maths.py / programming.py.
+#
+# "question_embeddings" below is now a TF-IDF sparse matrix
+# instead of a dense neural embedding matrix, and "vocabulary"
+# is now the fitted TfidfVectorizer object itself (not a plain
+# word list) so it can be reused to transform the user's
+# question at search time. The word-list vocabulary that used
+# to power correct_spelling() is now built separately and
+# returned alongside it.
+# ============================================================
 
 def prepare_general_knowledge_data(
     data
@@ -295,20 +300,32 @@ def prepare_general_knowledge_data(
         )
 
 
-    embeddings = model.encode(
-        questions,
-        show_progress_bar=False
+    tfidf_vectorizer = TfidfVectorizer(
+        lowercase=True,
+        ngram_range=(1, 2),
+        sublinear_tf=True
     )
 
 
-    vocabulary = build_vocabulary(
+    question_embeddings = tfidf_vectorizer.fit_transform(
+        questions
+    )
+
+
+    spelling_vocabulary = build_vocabulary(
         data
     )
 
 
+    vocabulary = {
+        "vectorizer": tfidf_vectorizer,
+        "spelling_words": spelling_vocabulary
+    }
+
+
     return (
         questions,
-        embeddings,
+        question_embeddings,
         vocabulary
     )
 
@@ -343,9 +360,11 @@ def search_general_knowledge(
     # SPELLING CORRECTION
     # ========================================================
 
+    spelling_words = vocabulary["spelling_words"]
+
     corrected_question = correct_spelling(
         question_clean,
-        vocabulary
+        spelling_words
     )
 
 
@@ -358,17 +377,23 @@ def search_general_knowledge(
 
 
     # ========================================================
-    # USER EMBEDDING
+    # USER VECTOR (TF-IDF instead of a neural embedding)
     # ========================================================
 
-    user_embedding = model.encode(
-        [corrected_question],
-        show_progress_bar=False
+    tfidf_vectorizer = vocabulary["vectorizer"]
+
+    user_embedding = tfidf_vectorizer.transform(
+        [corrected_question]
     )
 
 
+    if user_embedding.nnz == 0:
+
+        return None
+
+
     # ========================================================
-    # SEMANTIC SIMILARITY
+    # SEMANTIC SIMILARITY (TF-IDF cosine similarity)
     # ========================================================
 
     similarities = cosine_similarity(
