@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
+
+# Runtime data
+user.json
+chatbot.db
+
+# Environment / secrets
+.env
+
+# IDE
+.vscode/
+.idea/
